@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+table
+{
+    width: 100%;
+}
+td
+{
+    text-align: center;
+    font-size: 0.5vw;
+    border: 1px solid;
+}
+/*:empty permet de selectionner le selecteur dont leur contenu est vide*/
+td:empty
+{
+    border: none;
+}
+
+h1
+{
+    margin: 0;
+}
+
+br
+{
+    display: none; /*Cacher le contenu*/
+    white-space: pre; /*Revenir a ligne apres le selecteur*/
+}
+
+.a
+{
+    background-color: rgb(167, 131, 201);
+    border-color: rgb(56, 25, 83);
+}
+.b
+{
+    background-color:rgb(110, 175, 201);
+}
+.c
+{
+    background-color:rgb(152, 204, 187);
+}
+.d
+{
+    background-color:rgb(215, 241, 233);
+}
+.e
+{
+    background-color:rgba(247, 185, 71, 0.767);
+}
+.f
+{
+    background-color:rgb(229, 253, 198);
+}
+.g
+{
+    background-color:rgba(255, 250, 174, 0.952);
+}
+.h
+{
+    background-color:rgb(230, 121, 148);
+}
+.i
+{
+    background-color:rgba(189, 45, 100, 0.815);
+}
+.j
+{
+    background-color:rgba(247, 130, 94, 0.856);
+}
+img
+{
+    margin-left: 40%;
+    width: 250px;
+    height: 200px;;
+    border-radius: 50%;
+}
+p
+{
+   text-align: center;
+}
+.x
+{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1024px) 
+{
+    table
+    {
+        font-size: 0.9vw;
+
+    }
+    img
+    {
+        height: 80px;
+        width: 80px;
+    }
+    p
+    {
+        font-size: 00.9vw;
+    }
+    h1
+    {
+        font-size: 00.9vw;
+    }
+    
+}
